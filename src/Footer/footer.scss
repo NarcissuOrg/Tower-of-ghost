@@ -1,5 +1,10 @@
 @import 'mixins';
 
+.dev{
+    .footer{
+        background-color:  #0000007e;
+    }
+}
 .footer { 
     height:$footerheight;
     margin-top: -$footerheight;

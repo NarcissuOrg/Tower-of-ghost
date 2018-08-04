@@ -1,3 +1,14 @@
+.dev{
+    .game{
+        background: rgba(255, 255, 0, 0.37);
+    }
+}
 .game{
-    display: inline;
+    display:inline-block;
+    position: relative;
+    text-align: center;
+    min-width: 400px;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
 }

@@ -2,11 +2,11 @@
 
 
 const fightFlow = function* () {
-    
+
 
 }
 
-const gameFlow = function* () {
+const gameFlowGen = function* () {
     let game = yield 'Start';
 
     let CardInit = yield 'CardInit';
@@ -47,3 +47,6 @@ const gameFlow = function* () {
     }
 
 }
+const gameFlow = new gameFlowGen()
+export default gameFlow;
+// exports = { gameFlow }
