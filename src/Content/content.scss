@@ -1,0 +1,13 @@
+@import 'mixins';
+.main {
+    min-height: calc(100vh);
+    justify-content: center;
+    .main-container {
+        height: 100%;
+        padding-bottom: $footerheight;
+    }
+    .game-block {
+        height: 20em;
+        width: 20em;
+    }
+}
