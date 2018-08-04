@@ -1,0 +1,24 @@
+{
+  "name": "tower-of-ghost",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.9.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "run": "react-scripts start index.js",
+    "start": "npm-run-all --parallel run build-css",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build-css": "node-sass -wrxo src src"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.3"
+  }
+}

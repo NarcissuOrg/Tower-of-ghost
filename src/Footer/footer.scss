@@ -1,0 +1,6 @@
+@import 'mixins';
+
+.footer { 
+    height:$footerheight;
+    margin-top: -$footerheight;
+}
